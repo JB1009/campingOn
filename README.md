@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# CampingON and CampME
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+주제 : 캠핑장 정보공유 및 소통 커뮤니티/캠핑장 예약관리 및 캠핑장 업주가 문의를 통해 캠핑장을 등록할 수 있는 사이트
 
-In the project directory, you can run:
+개요 : 캠핑장 정보공유 및 소통 커뮤니티 사이트 제작 프로젝트는 캠핑을 다녀온 사람 혹은 캠핑을 가고자 계획중인 사람들을 대상으로 만든 프로젝트 입니다.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 프로젝트 기간 : 3주
+- 프로젝트 인원 : 8명(프론트 4, 백엔드 4)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 사용 기술 : React.js, Spring Boot, JPA, MySQL, Git, AWS
 
-### `npm test`
+- 담당 업무 : DB 모델링 , JPA활용 API구축 , AXIOS활용 react.js CRUD
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 세부 업무 : CampME 게시판 글등록,CampingON 예약기능,다녀온 캠핑기록
 
-### `npm run build`
+- 느낀점 : 
+    -  여러 인원으로 진행하는 프로젝트로 소통을 통한 pull,push의 중요성을 경험
+    -  복잡한 DB모델링을 직접 해봄으로써 탄탄한 기초설계를 해야 차후 프로젝트 진행중에 문제가 되지않음을 경험
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 보완점 :
+    - 이미지 업로드 기능을 완벽히 적용하지못한 아쉬움
+    - DB설계 문제로 인해 프로젝트중 적용하지못한 DB가 생기고 이로인해 DB모델링을 다시하여 시간이 더 걸린부분을 보완
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
